@@ -17,12 +17,27 @@
     <title>Functional List</title>
   </head>
   <body>
-    <h1>Hello</h1>
+    <div class="container pt-4">
+      <div class=" align-items-center pb-4 row">
+        <div class="col">
+          <input
+            type="text"
+            class="form-control"
+            id="message-text"
+            placeholder="Enter message"
+          />
+        </div>
+        <div class="col">
+          <button id="message-button" class="btn btn-primary">
+            Add Message
+          </button>
+        </div>
+      </div>
+
+      <div id="message-list"></div>
+    </div>
   </body>
 
   <script src="//cdn.jsdelivr.net/npm/ramda@0.30.0/dist/ramda.min.js"></script>
-  <script src="./basic-concepts/first-class.js"></script>
-  <script src="./basic-concepts/declarative.js"></script>
-  <script src="./basic-concepts/pure.js"></script>
-  <script src="./basic-concepts/immutability.js"></script>
+  <script src="./building-a-functional-project/list.js"></script>
 </html>
