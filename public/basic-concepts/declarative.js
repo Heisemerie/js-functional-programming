@@ -8,4 +8,4 @@ for (let i = 0; i < numbers.length; i++) {
 numbers.forEach((item) => console.log(item));
 //declarative programming helps understand a new codebase faster compared to imperative programming due to abstrction of details
 //declarative programming is also easier to read 
-//functional programming avoids loops(for, while, do...while), selection statements (if...else, switch...case; uses ternary instead for simple decisions)
+//functional programming avoids loops(for, while, do...while; uses recursion for repetition), selection statements (if...else, switch...case; uses ternary instead for simple decisions)
